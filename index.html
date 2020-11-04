@@ -35,6 +35,31 @@
         <li><a href="">Sign up</a></li>
         <li><a href="">Login</a></li>
       </ul>
+      
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/Outsource.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>This is our big Tagline!</h3>
+              <h5 class="light grey-text text-lighten-3">IT Outsourcing</h5>
+            </div>
+          </li>
+          <li>
+            <img src="hIT-Cons.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>Left Aligned Caption</h3>
+              <h5 class="light grey-text text-lighten-3">IT Consultant</h5>
+            </div>
+          </li>
+          <li>
+            <img src="Courses.jpg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3>Right Aligned Caption</h3>
+              <h5 class="light grey-text text-lighten-3">IT Courses</h5>
+            </div>
+          </li>
+        </ul>
 
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -42,6 +67,9 @@
       <script>
         const sidenav = document.querySelectorAll('.sidenav');
         M.Sidenav.init(sidenav);
+        
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider);
       </script>
     </body>
   </html>
