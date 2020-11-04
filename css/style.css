@@ -1,0 +1,11 @@
+.slider h3, .slider h5{
+text-shadow : 2px 2px 3px rgb(0,0,0);
+}
+
+.height-auto{
+	height: auto !important;
+}
+
+section {
+	padding: 20px 0px;
+}
