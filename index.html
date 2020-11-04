@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!-- top navbar -->
+        <div class="navbar-fixed light-blue darken-4">
+          <nav class="light-blue darken-4">
+            <div class="container">
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Project.IT</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Client</a></li>
+                  <li><a href="#">Sign up</a></li>
+                  <li><a href="#">Login</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      <!-- sidenav, activated in mobile size -->
+      <ul class="sidenav" id="mobile-nav">
+        <li><a href="">About Us</a></li>
+        <li><a href="">Client</a></li>
+        <li><a href="">Sign up</a></li>
+        <li><a href="">Login</a></li>
+      </ul>
+      
+      <!-- Slideshow -->
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/Outsource-min.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>IT Outsourcing</h3>
+              <h5 class="light grey-text text-lighten-3">IT Outsourcing</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/IT-Cons-min.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>IT Consultant</h3>
+              <h5 class="light grey-text text-lighten-3">IT Consultant</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/Courses-min.jpg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3>IT Courses</h3>
+              <h5 class="light grey-text text-lighten-3">IT Courses</h5>
+            </div>
+          </li>
+        </ul>
+
+        <section id="AboutUs">
+          <div class="container">
+            <div class="row">
+              <h3 class="center grey-text">Our Services</h3>
+              <!-- card section -->
+              <div class="col m4 s12">
+                <div class="card-panel center">
+                  <i class="medium material-icons">description</i>
+                  <h3>Job.IT</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit officia architecto, voluptate? Nostrum culpa distinctio ut atque adipisci dicta in.</p>
+                </div>
+              </div>
+              <!-- another card -->
+              <div class="col m4 s12">
+                <div class="card-panel center">
+                  <i class="medium material-icons">people</i>
+                  <h3>Ask.IT</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit officia architecto, voluptate? Nostrum culpa distinctio ut atque adipisci dicta in.</p>
+                  </div>
+                </div>
+            <!-- another card -->
+              <div class="col m4 s12">
+                <div class="card-panel center">
+                  <i class="medium material-icons">assignment</i>
+                  <h3>Edu.IT</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit officia architecto, voluptate? Nostrum culpa distinctio ut atque adipisci dicta in.</p>
+                </div>
+              </div>
+              <!-- space here-->
+            </div>
+          </div>
+        </section>
+
+        <section id="client" class="grey lighten-3">
+
+
+          <h3 class="center">Our Clients</h3>
+
+            <div class="carousel">
+              <div class="col m4 s12">
+                <div class="card-panel center carousel-item height-auto">
+                  <img src="img/gojek.png">
+                </div>
+                <div class="card-panel center carousel-item height-auto">
+                  <img src="img/traveloka.png">
+                </div>
+                <div class="card-panel center carousel-item height-auto">
+                  <img src="img/tokopedia.png">
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="contact">
+          <div class="row">
+            <div class="col m4 s12">
+              <div class="card-panel blue darken-3">
+                <h4 class="white-text darken-3 center">Contact Us</h4>
+
+                  <ul class="collection">
+                    <li class="collection-item">Email :</li>
+                    <li class="collection-item">instagram :</li>
+                    <li class="collection-item">Twitter :</li>
+                    <li class="collection-item">Contact Person :</li>
+                    <li class="collection-item">Github :</li>
+                  </ul>
+
+              </div>
+            </div>
+            <div class="col m8 s12">
+              <div class="card-panel blue lighten-2">
+                <h4 class="white-text center">Want to be our member?</h4>
+                <div class="row">
+                  <div class="col m6 s12">
+                    <div class="card-panel white">
+                      <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="col m6 s12">
+                    <div class="card-panel white">
+                      <input placeholder="Placeholder" id="username" type="text" class="validate">
+                      <label for="username">username</label>
+                      <input id="password" type="password" class="validate">
+                      <label for="password">password</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <footer class="page-footer blue darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Project.IT</h5>
+                <p class="grey-text text-lighten-4">Perfect choices for your IT career</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+      <script>
+        const sidenav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sidenav);
+        
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+          indicators : false,
+          height: 550,
+          interval: 3000
+        });
+
+        const carousel = document.querySelectorAll('.carousel');
+        M.Carousel.init(carousel, {
+          dist:-200,
+          padding:20,
+          shift:100
+        });
+      </script>
+    </body>
+  </html>
+
